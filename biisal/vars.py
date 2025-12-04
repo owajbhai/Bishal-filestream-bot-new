@@ -39,10 +39,11 @@ class Var(object):
         URL = "https://{}/".format(FQDN)
     else:
         URL = "http://{}/".format(FQDN)
-    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://dueltmpgvcpd_db_user:AcNHt2wxelcZInto@cluster0.98nzbjo.mongodb.net/?appName=Cluster0'))
+    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://Bot003:Bot003@cluster076666.r0p2exr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster076666'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'ClipMateBhai')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
     BAN_ALERT = str(getenv('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ @botmaster55 ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>'))
+
 
 
